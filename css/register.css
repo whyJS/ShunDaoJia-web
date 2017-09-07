@@ -1,0 +1,110 @@
+        *{
+            margin:auto 0;
+            padding: 0;
+        }
+        body{
+            background: #F0F0F0;
+        }
+        .header{
+            width: 100%;
+            height: 44px;
+            background: #FFDB4C;
+        }
+        .header_1{
+            float: left;
+            padding-top: 5px;
+            margin-left: 5px;
+            width: 33%;
+            line-height: 44px;
+            outline:none;
+        }
+        .header_2{
+            float: left;
+            text-align:center;
+            width: 34%;
+            font-size: 16px;
+            color:#323232;
+            font-weight: bold;
+            line-height: 44px;
+        }
+        .zc{
+            margin:0% 2% 0% 2%;
+            padding:0px 28px 30px 28px;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            background: #fff;
+        }
+        .zc ul li{
+            border-bottom: 1px solid #bbb;
+            list-style: none;
+            padding: 30px 0px 10px 0px;
+            position: relative;
+        }
+        .zc ul li input{
+            margin-left: 32px;
+            height: 23px;
+            font-size: 15px;
+            color: #000;
+            outline:none;
+            border:none;
+            -webkit-appearance: none; /*去除系统默认的样式*/
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+            /*border:none;*/
+        }
+        #err_msg{
+            font-size:13px;
+            /*text-align: center;*/
+            color:red;
+            position: absolute;
+            right: 40%;
+            bottom: -240px;
+        }
+        .username,.yzm, .pwd, .pwd2{
+            filter:alpha(opacity:70);
+            opacity: 0.7;
+            margin:2px 0;
+
+        }
+        .un,.pw,.pw2,.yz img{
+            vertical-align: middle;
+            /*display: block;*/
+        }
+        .submit{
+            width:96%;
+            margin:0% 2% 0% 2%;
+            height:45px;
+            border:none;
+            text-align: center;
+            color:#323232;
+            font-family: "Microsoft YaHei";
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 45px;
+            background: #FFDB4C;
+            outline:none;
+            -webkit-appearance: none; /*去除系统默认的样式*/
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+            /*border:none;*/
+        }
+        #send{
+            position:absolute;
+            right: 0px;
+            bottom: 13px;
+            /*float: right;*/
+            border:1px solid #ccc;
+            color: #969696;
+            background:#fff;
+            border-radius: 30px;
+            padding: 0px 8px;
+            font-size: 15px;
+            cursor: pointer;
+            outline:none;
+        }
+/*
+        .fx{
+            width:6px;
+            height:6px;
+            border:1px solid #4f7b9c;
+            float: left;
+        }*/

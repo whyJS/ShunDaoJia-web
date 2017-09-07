@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!-- 删除苹果默认的工具栏和菜单栏 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- 设置苹果工具栏颜色 -->
+		<meta name="format-detection" content="telphone=no, email=no" />
+		<!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+		<!-- 启用360浏览器的极速模式(webkit) -->
+		<meta name="renderer" content="webkit">
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+		<!-- 适应移动端end -->
+		<!--引入百度地图API-->
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+        <script type="text/javascript" src="js/order.js"></script>
+		<link rel="stylesheet" href="css/order.css" />
+		<title>全部订单</title>
+	</head>
+
+	<body>
+		<!--头部标题-->
+		<div class="order">
+			<header class="order-heade1">
+				<table>
+					<tr>
+						
+						
+						<td>
+							<a href="order.html" ><span class="order-heade1-tb-td">全部</span></a>
+						</td>
+						
+						
+						<td >
+							<a href="order-daifukuan.html"><span>待付款</span></a>
+						</td>
+						
+						
+						<td>
+							<a href="order-daishouhuo.html"><span>待收货</span></a>
+						</td>
+						
+						
+						<td>
+							<a href="order-daipingjia.html"><span >待评价</span></a>
+						</td>
+						
+						
+					</tr>
+				</table>
+			</header>
+			<header class="order-heade2">
+				<table border="0" cellspacing="0">
+					<tr>
+						<td>
+							<span class="order-heade2-td-s1">商铺订单</span>
+						</td>
+						<td>
+							<span class="order-heade2-td-s2">团购订单</span>
+						</td>
+					</tr>
+				</table>
+			</header>
+		</div>
+		<div class="locat-div"></div>
+		<!--具体订单列表-->
+		<!--全部订单-->
+		<!--商铺订单-->
+		<div class="order-body" id="order-body-sp">
+			
+			
+		<!--没有订单 当订单为空是的样式-->
+		<div class="order-body" id="order-body-no-1">
+			<p style="width: 100%;text-align: center;margin-top: 20%;">
+				<img src="img/order-no.png" />
+			</p>
+			<span style="font-size: 16px;color: #969696;display: block;width: 100%;text-align: center;padding-top: 30px;">暂无相关订单，快去下单吧</span>
+		</div>
+		
+		
+			<ul>
+				
+			</ul>
+		</div>
+		
+		
+		<!--团购订单-->
+		<div class="order-body" id="order-body-tg">
+			<!--没有订单 当订单为空是的样式-->
+		<div class="order-body" id="order-body-no-2">
+			<p style="width: 100%;text-align: center;margin-top: 20%;">
+				<img src="img/order-no.png" />
+			</p>
+			<span style="font-size: 16px;color: #969696;display: block;width: 100%;text-align: center;padding-top: 30px;">暂无相关订单，快去下单吧</span>
+		</div>
+			
+			
+			<ul>
+				<!--待收货样式-->
+				<li>
+					<p class="order-body-p1">
+						<span>超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市</span>
+						<span>订单已完成</span>
+					</p>
+					<p class="order-body-p2">
+						<table>
+							<tr class="order-body-p2-tr">
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+
+								<td class="order-body-p2-div">更多</td>
+							</tr>
+						</table>
+
+					</p>
+
+					<p class="order-body-p3">
+						<span class="order-body-p3-s1">
+							<span class="order-body-p3-s1-ss">
+								<span >共三种商品</span>
+						<span>金额：￥50.00</span>
+						</span>
+						<span class="order-body-p3-s1-ss2">2016.9.6-15.00</span>
+
+						</span>
+						<span class="order-body-p3-s2">
+							<a class="order-body-p3-s2-a1" style="">拒收</a>
+							<a  class="order-body-p3-s2-a2" style="">扫码收货</a>
+							<a  class="order-body-p3-s2-a3" style="">确认收货</a>
+
+						</span>
+					</p>
+				</li>
+				
+				
+				
+				<!--待付款样式-->
+				<li>
+					<p class="order-body-p1">
+						<span>超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市</span>
+						<span>待付款</span>
+					</p>
+					<p class="order-body-p2">
+						<table>
+							<tr class="order-body-p2-tr">
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								
+								<td class="order-body-p2-div">更多</td>
+							</tr>
+						</table>
+
+					</p>
+
+					<p class="order-body-p3">
+						<span class="order-body-p3-s1">
+							<span class="order-body-p3-s1-ss">
+								<span >共三种商品</span>
+						<span style="color: #bb2020;">金额：￥50.00</span>
+						</span>
+						<span class="order-body-p3-s1-ss2">2016.9.6-15.00</span>
+
+						</span>
+						<span class="order-body-p3-s2">
+							
+							<a  class="order-body-p3-s2-a2-dfk" style="">联系商家</a>
+							<a  class="order-body-p3-s2-a3-dfk" style="">去付款</a>
+
+						</span>
+					</p>
+				</li>
+				
+				<!--待评价样式-->
+				<li>
+					<p class="order-body-p1">
+						<span>超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市超市</span>
+						<span style="color: #F0F0F0;">已完成</span>
+					</p>
+					<p class="order-body-p2">
+						<table>
+							<tr class="order-body-p2-tr">
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								<td class="order-body-p2-td"><img src="img/order-1.png" /></td>
+								
+								<td class="order-body-p2-div">更多</td>
+							</tr>
+						</table>
+
+					</p>
+
+					<p class="order-body-p3">
+						<span class="order-body-p3-s1">
+							<span class="order-body-p3-s1-ss">
+								<span >共三种商品</span>
+						<span style="color: #bb2020;">金额：￥50.00</span>
+						</span>
+						<span class="order-body-p3-s1-ss2">2016.9.6-15.00</span>
+
+						</span>
+						<span class="order-body-p3-s2">
+							
+							<a  class="order-body-p3-s2-a2-dfk" style="">再来一单</a>
+							<a  class="order-body-p3-s2-a3-pj" style="">评价</a>
+
+						</span>
+					</p>
+				</li>
+				
+			</ul>
+		</div>
+		
+		
+		<!--登录状态弹出框-->
+		<div style="width: 100%;text-align: center;position: fixed;bottom: 80px;">
+			<span style="display: inline-block;height: 40px;border-radius: 20px;color: white;background: rgba(0,0,0,0.6);line-height: 40px;padding-right: 20px;padding-left: 20px;font-size: 18px;">123456</span>
+		</div>
+        <!--弹窗-->
+        
+		<!--底部按钮-->
+		<footer class="home-page-fot">
+			<table>
+				<tr>
+					<td>
+						<img src="img/home-page-sdj2.png" /><br /> 顺道嘉
+					</td>
+					<td>
+						<img src="img/home-page-dd2.png" /><br /> 订单
+					</td>
+					<td>
+						<img src="img/home-page-qd.png" /><br /> 钱袋
+					</td>
+					<td>
+						<img src="img/home-page-wd.png" /><br /> 我的
+					</td>
+				</tr>
+			</table>
+		</footer>
+		<div style="width: 100%;height: 60px;"></div>
+	
+
+		<script type="text/javascript">
+
+			
+
+		</script>
+	</body>
+
+</html>

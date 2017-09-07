@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width:100%;
+    background:#f0f0f0;
+}
+/*头部开始*/
+header,section{
+    width:100%;
+    background:#ffdb4c;
+}
+header{
+    height:44px;
+    position: fixed;
+    top:0px;
+    z-index: 10;
+}
+header div img{
+    width:15px;
+    height:15px;
+    position: absolute;
+    top:15px;
+}
+header .head img{
+    left:12px;
+}
+header .set img{
+    right:12px;
+} 
+/*头部结束*/
+/*内容开始*/
+section{
+    position: relative;
+    top:44px;
+    padding:0px 0px 23px 0px;
+}
+/*头像*/
+section .pic img{
+    width:80px;
+    height:80px;
+    display:block;
+    margin:0 auto;
+}
+/*登录*/
+section .login input{
+    width:100px;
+    height:30px;
+    border-radius:6px;
+    display: block;
+    margin:0 auto;
+    margin-top: 22px;
+    border:1px solid #323232;
+    background:#ffdb4c;
+    font-size:15px;
+    color:#323232;
+    outline: none;
+}
+/*我的信息*/
+.main{
+    position: absolute;
+    top:200px;
+    width:100%;
+    background:#f0f0f0;
+}
+.main .mine table{
+    width:100%;
+    background:#fff;
+    padding:22px 10px;
+    border-spacing: 10px;
+}
+.main .mine table .img{
+    width:30px;
+    height:30px;
+}
+.main .mine table .img img{
+   vertical-align: middle;
+   text-align: center;
+}
+.main .mine table .pic img{
+    width:9px;
+    height:15px;
+}
+.main .mine table .line{
+    width:100%;
+    border:1px solid #f0f0f0;
+}
+.main .mine2,.mine3{
+    margin-top:5px;
+}
+/*内容结束*/

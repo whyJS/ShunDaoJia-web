@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!-- 删除苹果默认的工具栏和菜单栏 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- 设置苹果工具栏颜色 -->
+		<meta name="format-detection" content="telphone=no, email=no" />
+		<!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+		<!-- 启用360浏览器的极速模式(webkit) -->
+		<meta name="renderer" content="webkit">
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+		<!-- 适应移动端end -->
+
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+
+		<link rel="stylesheet" href="css/location_2.css" />
+		<title></title>
+	</head>
+
+	<body>
+<header class="location-header">		
+		<header class="loc-head">
+			<!--关闭-->
+			<div class="loc-head-d1">
+				<a href="location.html">
+		<img src="img/location-x.png" />
+		</a>
+			</div>
+			<!--定位-->
+			<div class="loc-head-d2">
+				定位
+			</div>
+		</header>
+
+		<div class="loc2-d2">
+			<table>
+				<tr>
+					<td class="loc2-d2-td1">
+						<span>北京市</span><img src="img/location-sj.png" />
+					</td>
+					<td class="loc2-d2-td2">
+						<input type="text" id="suggestId" style="" />
+					</td>
+				</tr>
+			</table>
+		</div>
+</header>
+<div class="locat-div"></div>
+        <!--城市ABC-->
+        <ul class="locat-ul-ABC">
+        	<a href="#A">
+	        	<li>A</li>
+        	</a>
+        	<a href="#B">
+	        	<li>B</li>
+        	</a><a href="#C">
+	        	<li>C</li>
+        	</a><a href="#D">
+	        	<li>D</li>
+        	</a><a href="#E">
+	        	<li>E</li>
+        	</a><a href="#F">
+	        	<li>F</li>
+        	</a><a href="#G">
+	        	<li>G</li>
+        	</a><a href="#H">
+	        	<li>H</li>
+        	</a><a href="#I">
+	        	<li>I</li>
+        	</a><a href="#G">
+	        	<li>G</li>
+        	</a><a href="#K">
+	        	<li>K</li>
+        	</a><a href="#L">
+	        	<li>L</li>
+        	</a><a href="#M">
+	        	<li>M</li>
+        	</a><a href="#N">
+	        	<li>N</li>
+        	</a><a href="#O">
+	        	<li>O</li>
+        	</a><a href="#P">
+	        	<li>P</li>
+        	</a><a href="#Q">
+	        	<li>Q</li>
+        	</a><a href="#R">
+	        	<li>R</li>
+        	</a><a href="#S">
+	        	<li>S</li>
+        	</a><a href="#T">
+	        	<li>T</li>
+        	</a><a href="#U">
+	        	<li>U</li>
+        	</a><a href="#V">
+	        	<li>V</li>
+        	</a><a href="#W">
+	        	<li>W</li>
+        	</a><a href="#X">
+	        	<li>X</li>
+        	</a><a href="#Y">
+	        	<li>Y</li>
+        	</a><a href="#Z">
+	        	<li>Z</li>
+        	</a><a href="#OO">
+	        	<li>#</li>
+        	</a>
+        	
+        </ul>
+		<!--城市列表-->
+		
+		<ul class="loc2-lb">
+			<li class="loc2-lb-li">
+				<div id="A">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="B">B</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="C">C</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="D">D</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="E">E</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="F">F</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="G">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="H">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="I">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="G">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="K">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="L">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="M">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="N">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li><li class="loc2-lb-li">
+				<div id="O">A</div>
+				<ul>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+					<li>123</li>
+				</ul>
+			</li>
+		</ul>
+
+<script type="text/javascript">
+	$('.locat-div').css({'height':$('.location-header').css('height')})
+	var a=$('.locat-ul-ABC li').length;
+	var b=parseInt($('.locat-ul-ABC').css('height'))-parseInt($('.location-header').css('height'))
+	console.log(b/a+'px')
+    $('.locat-ul-ABC').css({'line-height':b/a+'px'})
+</script>
+	</body>
+
+</html>

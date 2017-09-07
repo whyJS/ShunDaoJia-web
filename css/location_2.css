@@ -1,0 +1,30 @@
+* {font-family: "Myriad Set Pro", 'Hiragino Sans GB W3', '微软雅黑', 'YaHei', 'Microsoft YaHei', "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif", 'SHSCN', 'Open Sans';font-size: 16px;color: #646464;margin: 0;padding: 0;}
+a, a:focus, a:hover, a:active {border: none;outline: none;text-decoration: none;color:#646464;}
+li {list-style: none;}
+.clear {clear: both;}
+.loc-head{width: 100%;height: 50px;box-sizing: border-box;}
+.loc-head-d1{position: absolute;top: 20px;left: 12px;}
+.loc-head-d1 img{width: 15px;height: 15px;}
+.loc-head-d2{width: 100%;text-align: center;font-size: 18px;color: #323232;background: #FFFFFF;border-bottom: 1px solid #E1E1E1;padding-top: 20px;padding-bottom: 20px;}
+
+/*头*/
+.location-header{width:100%;position: fixed;background: #FFFFFF;}
+/*城市名  搜索框*/
+.loc2-d2{width: 100%;height: 50px;padding-top: 20px;border: 0px solid black;padding-bottom: 20px;}
+.loc2-d2 table{width:100%;border-collapse:collapse;border: 0px solid black;border-radius: 2px;border: 0px solid black;}
+.loc2-d2 table tr{width: 100%;}
+.loc2-d2-td1{width: 32%;height: 35px;background: #FFFFFF;border: 0px solid black;}
+.loc2-d2-td1 span{font-size: 15px;color: #323232;display: inline-block;padding-left: 12px;padding-right: 5px;}
+.loc2-d2-td1 img{width: 11px;height: 6px;}
+.loc2-d2-td2{width: 72%;height: 35px;border: 0px solid black;}
+.loc2-d2-td2 input{border-radius: 2px; width: 90%;height: 35px;background: #f0f0f0;background-image: url(../img/location-ss.png);background-repeat: no-repeat;background-size: 20px 18px;padding-left: 25px; display: inline-block;vertical-align: top;background-position-y: 7px;background-position-x: 5px; line-height: 35px;font-size: 15px;border: 0px solid #F0F0F0;outline: none;border: 0px solid black;box-sizing: border-box;}
+
+
+/*城市列表*/
+.loc2-lb-li{width: 100%;}
+.loc2-lb-li div{background: #F0F0F0;width: 100%;font-size: 16px;text-align: left;box-sizing: border-box;padding-left: 12px;padding-top: 5px;padding-bottom: 5px;height: 30px;}
+.loc2-lb-li ul li{background: #FFFFFF;width: 100%;font-size: 16px;text-align: left;box-sizing: border-box;padding-left: 12px;height: 48px;padding-top: 15px;padding-bottom: 15px;border-bottom: 1px solid #F0F0F0;}
+
+/*ABC*/
+.locat-ul-ABC{box-sizing: border-box;padding-top: 0px; width: 20px;position: fixed;right: 2px;background: #F0F0F0;text-align: center;height: 100%;padding-bottom: 10px;height: 100%;}
+.locat-ul-ABC li{font-size: 12px;box-sizing: border-box;padding-top: 0px;padding-bottom: 0px;}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="textcml; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <!-- 设置苹果工具栏颜色 -->
+    <meta name="format-detection" content="telphone=no, email=no" />
+        <!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+        <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+        <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+        <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+        <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+        <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+        <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+        <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+        <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+        <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+        <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+        <!-- 适应移动端end -->
+    <title>mine-name</title>
+    <link rel="stylesheet" href="./css/mine-name.css">
+    <script src="./js/jquery-2.1.0.js"></script>
+    <script src="./js/mine.js"></script>
+</head>
+<body>
+    <!-- 标题开始 -->
+    <header>
+    <!-- 实名认证 -->
+        <div class="head">
+            <a href="./mine.html"><img src="./img/back1.png" alt=""></a>
+            <div class="biaoji"><a href="">保存</a></div>
+        </div>
+        <div class="section">实名认证</div>
+    </header>
+    <!-- 标题结束 -->
+    <!-- 内容开始 -->
+    <section>
+    <!--              未认证           -->
+        <table>
+            <tr>
+                <td><img src="./img/sfz.png" alt=""></td>
+                <td><input type="text" placeholder="身份证号"></td>
+            </tr>
+            <tr>
+                <td><img src="./img/name.png" alt=""></td>
+                <td><input type="text" placeholder="姓名"></td>
+            </tr>
+            <tr>
+                <td><img src="./img/phone.png" alt=""></td>
+                <td><input type="text" placeholder="联系方式"></td>
+            </tr>
+            <tr>
+                <td><img src="./img/address.png" alt=""></td>
+                <td><input type="text" placeholder="家庭住址"></td>
+            </tr>
+        </table> 
+        <div class="zhuyi">
+            <h2>注意</h2>
+            <p>为了更好的保障您的合法权益，请上传您的相关证件：上传包括手持身份证正反面，营业执照等证件。证件通过审核后不能自行修改，如若修改需联系客服人员，待确定无误后方可更改。请您在上传时仔细检查证件信息，确定清晰无误再上传。</p>
+        </div>   
+        <button>查看实例图片</button>
+        <div class="pic">
+            <div class="left">
+                <div class="left1">
+                    <img src="./img/add.png" alt="">
+                    <span>上传相关证件照</span>
+                </div>
+                
+            </div>
+            <div class="right">
+                <div class="right1">
+                    <img src="./img/add.png" alt="">
+                    <span>上传相关证件照</span>
+                </div>
+                
+            </div>
+        </div>
+
+    <!--              已认证          -->
+        
+    </section>
+    <!-- 内容结束 -->
+</body>
+</html>

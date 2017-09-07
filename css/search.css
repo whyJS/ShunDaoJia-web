@@ -1,0 +1,28 @@
+* {font-family: "Myriad Set Pro", 'Hiragino Sans GB W3', '微软雅黑', 'YaHei', 'Microsoft YaHei', "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif", 'SHSCN', 'Open Sans';font-size: 16px;color: #646464;margin: 0;padding: 0;}
+a, a:focus, a:hover, a:active {border: none;outline: none;text-decoration: none;color:#646464;box-sizing: border-box;}
+li {list-style: none;}
+.clear {clear: both;}
+body{background: #F0F0F0;}
+
+.search-head{width: 100%;background: #FFFFFF;padding-top: 10px;padding-bottom: 10px;position: fixed;top: 0px;}
+.search-head table{width: 100%;}
+.search-head-td1{width: 15%;padding-left: 12px;}
+.search-head-td2{width: 60%;text-align: center;}
+.search-head-td2 input{width: 90%;display: inline-block;outline: none;border-radius: 6px; border: 1px solid #E1E1E1;background: #E1E1E1;box-sizing: border-box;padding-left: 23px;background-image: url(../img/search-2.png);height: 30px;background-repeat:no-repeat ;background-position-y: 2px;}
+.search-head-td3{width: 20%;padding-right: 12px;text-align: right;}
+.search-head-td3 img{width: 50px;height: 30px;}
+
+/*热门搜索*/
+.search-div{width: 100%;margin-top: 10px;background: #FFFFFF;padding-top: 16px;box-sizing: border-box;padding-left: 12px;padding-right: 12px;padding-bottom: 28px;}
+.search-div-p1{width: 100%;}
+.search-div-p1 span{display: inline-block;padding-left: 16px;font-size: 16px;color: #969696;}
+.search-div-p2 span{display: inline-block;padding-left: 10px;padding-right: 10px;font-size: 16px;color: #969696;border: 1px solid #E1E1E1;height: 30px;border-radius: 14px;text-align: center;line-height: 26px;margin-top: 16px;}
+
+/*历史地区*/
+.search-ul{width: 100%;background: #FFFFFF;box-sizing: border-box;padding-left: 12px;padding-right: 12px;margin-top: 10px;}
+.search-ul li{padding-bottom: 20px;padding-top: 20px;border-bottom: 1px solid #E1E1E1;}
+.search-ul li span{display: inline-block;padding-left: 16px;vertical-align: middle;font-size: 16px;color: #969696;}
+.search-ul li img{display: inline-block;vertical-align: middle;}
+
+
+

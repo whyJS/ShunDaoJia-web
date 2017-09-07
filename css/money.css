@@ -1,0 +1,164 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+body{
+    background: #F0F0F0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    -webkit-appearance: none; /*去除系统默认的样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+            /*border:none;*/
+}
+.fix:after{
+    display:block; 
+    content:""; 
+    height:0; 
+    clear:both; 
+    overflow:hidden; 
+    visibility:hidden;
+}
+.header{
+    height: 44px;
+    width: 100%;
+    background: #FFDB4C;
+    position: fixed;
+}
+.header a{
+    color: #323232;
+}
+.header_l{
+    float: left;
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    color: #323232;
+}
+.header_r{
+    float: right;
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    font-size: 16px;
+    color: #323232;
+}
+.wdye{
+    padding-top: 44px;
+    height: 103px;
+    width: 100%;
+    background: #FFDB4C;
+}
+.wdye_t{
+    text-align: center;
+    margin-top: 6px;
+    font-size: 16px;
+    color: #323232;
+    opacity: 0.5;
+}
+.wdye_b{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #323232;
+}
+.btn{
+    height: 80px;
+    width: 100%; 
+    padding-top: 22px;
+    /*padding-bottom: 25px;*/
+    border-bottom: 1px solid #E1E1E1;
+    background: #fff;
+}
+.btn_l{
+    float: left;
+    height: 40px;
+    width: 60%;
+    background: #FAFAFA;
+    opacity: 1;
+    border:1px solid #E1E1E1;
+    border-radius: 12px;
+    margin-left: 12px;
+    margin-right: 10px;
+    outline: none;
+    -webkit-appearance: none; /*去除系统默认的样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+            /*border:none;*/
+    display: block;
+    text-align: center;
+    color: #ccc;
+    font-size: 16px;
+}
+.btn_r{
+    float: right;
+    height: 40px;
+    width: 29%;
+    margin-right: 12px;
+    background: #FAFAFA;
+    opacity: 1;
+    border:1px solid #E1E1E1;
+    border-radius: 12px;
+    outline: none;
+    -webkit-appearance: none; /*去除系统默认的样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+            /*border:none;*/
+    display: block;
+    text-align: center;
+    color: #ccc;
+    font-size: 16px;
+}
+.main{
+    margin-top: 5px;
+}
+.main_b>li{
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    background: #fff;
+}
+.list_l img{
+    width: 20px;
+    /*height:20px;*/
+    vertical-align: middle;
+}
+.hz1{
+    margin-left: 11px;
+    font-size: 16px;
+    color: #323232;
+}
+.hz2{
+    margin-left: 11px;
+    font-size: 16px;
+    color: #ccc;
+}
+.hz3{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #DF3D3E;
+}
+.main_s>li{
+    border-bottom: 1px solid #E1E1E1;
+    height:64px;
+    line-height: 64px;
+    
+    margin:5px 12px 0px 12px;
+}
+.list_l{
+    float: left;
+}
+.list_r{
+    float: right;
+}
+.list2{
+    height:64px;
+    line-height: 64px;
+    padding:0px 12px;
+    margin-top: 5px;
+}

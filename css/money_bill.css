@@ -1,0 +1,135 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+body{
+    background: #F2F2F2;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    -webkit-appearance: none; /*去除系统默认的样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+            /*border:none;*/
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.header_1{
+    float: left;
+    padding-top: 5px;
+    margin-left: 12px;
+    width: 33%;
+    line-height: 44px;
+    outline:none;
+}
+.header_2{
+    float: left;
+    text-align:center;
+    width: 34%;
+    font-size: 18px;
+    color: #323232;
+    font-weight: bold;
+    line-height: 44px;
+}
+.header_3{
+    float: right;
+    text-align: right;
+    width: 10%;
+    margin-right: 12px;
+    line-height: 44px;
+}
+.header_3 img{
+    vertical-align: middle;
+    width: 20px;
+}
+.list{
+    margin-top: 49px;
+    padding: 25px 12px;
+    background: #fff;
+}
+.list2{
+    margin-top: 5px;
+    padding: 25px 12px;
+    background: #fff;
+}
+.list_1{
+    margin-bottom: 10px;
+}
+.list_1_l{
+    float: left;
+    font-size: 18px;
+    color: #323232;
+}
+.list_1_r{
+    float: right;
+    font-size: 18px;
+    color: #323232;
+}
+.list_2_l{
+    float: left;
+    font-size: 15px;
+    color: #969696;
+}
+.list_2_l_1{
+    margin-right: 15px;
+}
+.list_2_r{
+    float: right;
+    font-size: 12px;
+    color: #3AA421;
+}
+.list_2_b{
+    float: right;
+    font-size: 12px;
+    color: #DF3D3E;
+}
+
+.ceng{
+    position: fixed;
+    top: 44px;
+    right: 0px;
+    width: 130px;
+    /*height: 272px;*/
+    background: #fff;
+    opacity: 0.9;
+    display: none;
+}
+.ceng_fen{
+    width: 107px;
+    text-align: center;
+}
+.ceng_fen_1{
+    padding: 20px 0px;
+    border-bottom:1px solid #ccc;
+}
+.ceng_fen_1 a{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #323232;
+}
+.ceng_fen_2{
+    padding: 20px 0px;
+}
+.ceng_fen_2 a{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #323232;
+}

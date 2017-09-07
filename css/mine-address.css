@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+/*标题开始*/
+header{
+    width:100%;
+    height:44px;
+    line-height: 44px;
+    background:#fff;
+    border-bottom: 1px solid #e1e1e1;
+    position: fixed;
+    top:0px;
+    z-index: 10;
+}
+header .head{
+   width:100%;
+   height:44px;
+   line-height: 44px;
+   position: absolute;
+   top:0px;
+}
+header .head img{
+    width:8px;
+    height:16px;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+header .section{
+    text-align: center;
+    font-size:18px;
+    color:#333333;
+}
+/*标题结束*/
+/*内容开始*/
+section{
+    width:100%;
+    height:auto;
+    background:#f0f0f0;
+    margin-top: 44px;
+}
+/*无订单*/
+section .wudizhi{
+    width:100%;
+    padding:100px 0 0 0;
+    display:none;
+}
+section .wudizhi img{
+    display: block;
+    margin:0 auto;
+}
+section .wudizhi h2{
+    font-size: 18px;
+    color:#999999;
+    margin-top: 32px;
+    text-align: center;
+    padding-bottom: 280px;
+}
+/*有订单*/
+section .message{
+    width:100%;
+    background:#fff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+section .message .message-top{
+    width:100%;
+    height:80px;
+    border-bottom: 1px solid #f0f0f0;
+}
+section .message .message-top h2{
+    font-size: 15px;
+    color:#333333;
+    padding:12px;
+} 
+section .message .message-top p{
+    font-size: 15px;
+    color:#4d4d4d;
+    margin-left:12px;
+}
+section .message .message-top span{
+    font-size: 14px;
+    color:#666666;
+    float:right;
+    padding-right: 12px;
+}
+/*未读图标*/
+section .message .message-middle{
+
+    width:100%;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+}
+section .message .message-bottom{
+    width:100%;
+    height:80px;
+    padding: 20px 0px;
+    display:none;
+}
+section .message .message-bottom p{
+    width:80%;
+    font-size: 12px;
+    color:#666666;
+    margin:0 auto;
+    line-height: 18px;
+    letter-spacing: 3px;
+    word-wrap:break-word; 
+}
+/*内容结束*/
+/*尾部开始*/
+footer{
+    width:100%;
+    height:50px;
+    border-top:1px solid #dedede;
+    position: fixed;
+    bottom:0px;
+    background:red;
+}
+footer button{
+    width:100%;
+    height:50px;
+    background:#fff;
+    border:none;
+    outline:none;
+}
+footer button .foot{
+    width:115px;
+    height:18px;
+    margin:0 auto;
+}
+footer button .foot img{
+    width:18px;
+    height:18px;
+    float:left;
+}
+footer button .foot p{
+    font-size: 15px;
+    color:#4d4d4d;
+}
+/*尾部结束*/

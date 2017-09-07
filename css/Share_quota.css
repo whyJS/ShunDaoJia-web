@@ -1,0 +1,120 @@
+*{
+    margin:0 auto;
+    padding: 0;
+}
+body{
+    background: #F2F2F2;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    -webkit-appearance: none; /*去除系统默认的样式*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/
+            /*border:none;*/
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #aaa;
+}
+.header_1{
+    float: left;
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 33%;
+    line-height: 44px;
+    outline:none;
+}
+.header_2{
+    float: left;
+    text-align:center;
+    width: 34%;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    line-height: 44px;
+}
+.header_3{
+    float: right;
+    text-align: right;
+    width: 10%;
+    margin-right: 12px;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    line-height: 44px;
+}
+.main{
+    background: #fff;
+    padding: 20px 12px 32px 12px;
+}
+.main_t{
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main_b{
+    font-size: 12px;
+    color: #FF5500;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.kongbai{
+    height:52px;
+    border-top: 1px solid #ccc;
+}
+.fx{
+    padding: 12px;
+    background: #fff;
+    /*height:100px;*/
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;  
+}
+.fx_l{
+    float: left;
+    margin-right: 12px;
+    /*height:100px;*/
+}
+.fx_l img{
+    width: 68px;
+}
+.fx_r{
+    float: right;
+    width: 75%;
+}
+.fx_r_t{
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.fx_r_b{
+    font-size: 12px;
+    color: #666;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+.fx_b{
+    float: right;
+    margin-top: 12px;
+}
+.fx_b img{
+    width: 62px;
+    height:28px;
+}
+.kongbai2{
+    height:12px;
+}
+
+

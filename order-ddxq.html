@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!-- 删除苹果默认的工具栏和菜单栏 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- 设置苹果工具栏颜色 -->
+		<meta name="format-detection" content="telphone=no, email=no" />
+		<!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+		<!-- 启用360浏览器的极速模式(webkit) -->
+		<meta name="renderer" content="webkit">
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+		<!-- 适应移动端end -->
+		<!--引入百度地图API-->
+
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/order-ddxq.css" />
+		
+		<title>订单详情及订单状态</title>
+	</head>
+
+	<body>
+		<div id="order-ddxq" style="width: 100%;"></div>
+         <header class="order-ddxq">
+         	<a class="order-ddxq-a1" href="#">
+         		<img src="img/order-ddxq1.png" />
+         	</a>
+         	<table>
+         		<tr>
+         			<td >
+         				<span class="order-ddxq-td1">
+         					订单详情
+         				</span>
+         				
+         			</td>
+         			<td >
+         				<span class="order-ddxq-td2">
+         					订单状态
+         				</span>
+         				
+         			</td>
+         		</tr>
+         	</table>
+         	<a href="#" class="order-ddxq-a2">
+         		联系商家
+         	</a>
+         </header>
+         <!--订单详情-->
+		<div id="ddxq" style="width: 100%;">
+         <!--订单号-->
+         <div class="order-ddxq-dd">
+         	订单号：65622454424425252
+         </div>
+         <!--地址-->
+         <div class="order-ddxq-dz">
+         	<table>
+         		<tr>
+         			<td class="order-ddxq-dz-td1"><img src="img/order-ddxq-tc.png"/></td>
+         			<td class="order-ddxq-dz-td2">
+         				<p>
+         					<span>王大姐</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>18865734562</span>
+         				</p>
+         				<p>
+         					往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后往后
+         				</p>
+         			</td>
+         		</tr>
+         	</table>
+         </div>
+         <!--送达时间 支付方式-->
+         <ul class="order-ddxq-ul">
+         	<!--送达时间-->
+         	<li style="border-bottom: 1px solid #F0F0F0;">
+         		<span class="order-ddxq-ul-l1-s1-n1">送达时间</span>
+         		<span class="order-ddxq-ul-l1-s2-n2">
+         			<span>2016-9-16</span>
+         			<span>15:23</span>        			
+         			<span style="color: #df3d3e;">(36分钟)</span>
+         		</span>
+         	</li>
+         	
+         	<li>
+         		<span class="order-ddxq-ul-l1-s1">支付方式</span>
+         		<span class="order-ddxq-ul-l1-s2">
+         			<img  src="img/order-ddxq-ye.png"/>
+         			<span>余额支付</span>
+         		</span>
+         	</li>
+         </ul>
+         
+         <!--备注-->
+         
+         <div class="order-ddxq-bz">
+         	<span class="order-ddxq-bz-s1">备注</span>
+         	<span class="order-ddxq-bz-s2">最好三十分钟带来，在带一包盐最好三十分钟带来，在带一包</span>
+         	<span class="order-ddxq-bz-s3"><img src="img/order-ddxq-bz.png"/></span>
+         </div>
+         <!--备注弹窗-->
+         <div class="order-ddxq-bz-tanchuang">
+         	<p class="order-ddxq-bz-tanchuang-p1">
+         		<img src="img/order-jushou.png" />
+         	</p>
+         	<p class="order-ddxq-bz-tanchuang-p2">
+         		最好三十分钟送达，带包中华烟，给现金
+         	</p>
+         </div>
+         <!--商品详情-->
+         <ul class="order-ddxq-spxq">
+         	<header>
+         		<span class="order-ddxq-spxq-s1">
+         			家外家超市（通州离梨园云景东路）
+         		</span>
+         		<span class="order-ddxq-spxq-s2">
+         			<img src="img/order-ddxq-bz.png" />
+         		</span>
+         	</header>
+         	<li class="order-ddxq-spxq-li">
+         		<span class="order-ddxq-spxq-li-s1">
+         			<img src="img/order-ddxq-spxq.png"/>
+         			<span>洽洽香瓜子牌蚕豆</span>
+         		</span>
+         		<span class="order-ddxq-spxq-li-s2">
+         			<span class="order-ddxq-spxq-li-s2-span1">X 3 袋</span>
+         			<span class="order-ddxq-spxq-li-s2-span2">￥ 5.00</span>
+         		</span>
+         	</li>
+         	<li class="order-ddxq-spxq-li">
+         		<span class="order-ddxq-spxq-li-s1">
+         			<img src="img/order-ddxq-spxq.png"/>
+         			<span>洽洽香瓜子牌蚕豆</span>
+         		</span>
+         		<span class="order-ddxq-spxq-li-s2">
+         			<span class="order-ddxq-spxq-li-s2-span1">X 3 袋</span>
+         			<span class="order-ddxq-spxq-li-s2-span2">￥ 5.00</span>
+         		</span>
+         	</li>
+         	<li class="order-ddxq-spxq-li">
+         		<span class="order-ddxq-spxq-li-s1">
+         			<img src="img/order-ddxq-spxq.png"/>
+         			<span>洽洽香瓜子牌蚕豆</span>
+         		</span>
+         		<span class="order-ddxq-spxq-li-s2">
+         			<span class="order-ddxq-spxq-li-s2-span1">X 3 袋</span>
+         			<span class="order-ddxq-spxq-li-s2-span2">￥ 5.00</span>
+         		</span>
+         	</li>
+         	<li class="order-ddxq-spxq-li">
+         		<span class="order-ddxq-spxq-li-s1">
+         			<img src="img/order-ddxq-spxq.png"/>
+         			<span>洽洽香瓜子牌蚕豆</span>
+         		</span>
+         		<span class="order-ddxq-spxq-li-s2">
+         			<span class="order-ddxq-spxq-li-s2-span1">X 3 袋</span>
+         			<span class="order-ddxq-spxq-li-s2-span2">￥ 5.00</span>
+         		</span>
+         	</li>
+         	
+         	<!--配送费-->
+         	<li class="order-ddxq-spxq-li">
+         		<span class="order-ddxq-spxq-li-s1">
+         			
+         			<span style="font-size: 16px;color: #323232;">配送费</span>
+         		</span>
+         		<span class="order-ddxq-spxq-li-s2">
+         			<span class="order-ddxq-spxq-li-s2-span1"></span>
+         			<span class="order-ddxq-spxq-li-s2-span2" >￥ 5.00</span>
+         		</span>
+         	</li>
+         	
+         	<li class="order-ddxq-spxq-li">
+         		<span class="order-ddxq-spxq-li-s1">
+         			
+         			<span style="font-size: 16px;color: #323232;">
+         				<span style="display: inline-block;width: 24px;height: 24px;border-radius: 15px;background: #ff974c;vertical-align: middle;text-align: center;font-size: 16px;line-height: 24px;border: 1px solid #323232;">减</span>
+         				首单立减
+         			</span>
+         
+         		</span>
+         		<span class="order-ddxq-spxq-li-s2">
+         			<span class="order-ddxq-spxq-li-s2-span1"></span>
+         			<span class="order-ddxq-spxq-li-s2-span2" >-￥ 5.00</span>
+         		</span>
+         	</li>
+         	
+         	<!--实付-->
+         	 <li class="order-ddxq-spxq-li">
+         		<p style="font-size: 18px;color: #DF3D3E;font-weight: 600;padding-bottom: 12px;">实付： 15.00</p>
+         		<p style="font-size: 10px;color: #969696;">下单时间：2016-9-6 15:56</p>
+         	</li>
+         </ul>
+         
+         <!--底部-->
+         <footer class="order-ddxq-fot">
+         	<a class="order-ddxq-fot-a1">删除订单</a>
+         	<a class="order-ddxq-fot-a2">
+         		<span>再来一单</span>
+         		
+         	</a>
+         	<a class="order-ddxq-fot-a3">
+         		<span>
+         			评价
+         		</span>
+         		
+         	</a>
+         </footer>
+         <div style="width: 100%;height: 72px;margin-top: 20px;"></div>
+     </div> 
+     
+     <!--订单状态-->
+     <div id="ddzt" style="width: 100%;display: none;">
+     	<ul class="order-ddzt">
+     		<li>
+     			<span class="order-ddzt-s1">
+     				<img  src="img/order-ddzt-1.png"/>
+     			</span>
+     			<span class="order-ddzt-s2">
+     				<p class="order-ddzt-s2-p1">商家正在配送</p>
+     				<p class="order-ddzt-s2-p2">2016-9-2&nbsp;&nbsp;15:00</p>
+     				<p class="order-ddzt-s2-p3">配送商家人员：网大三</p>
+     				<p class="order-ddzt-s2-p4">电话:<span>12425625426</span></p>
+     			</span>
+     		</li>
+     		<li>
+     			<span class="order-ddzt-s1">
+     				<img  src="img/order-ddzt-2.png"/>
+     			</span>
+     			<span class="order-ddzt-s2">
+     				<p class="order-ddzt-s2-p1">支付成功</p>
+     				<p class="order-ddzt-s2-p2">2016-9-2&nbsp;&nbsp;15:00</p>
+     				
+     			</span>
+     		</li>
+     		<li>
+     			<span class="order-ddzt-s1">
+     				<img  src="img/order-ddzt-2.png"/>
+     			</span>
+     			<span class="order-ddzt-s2">
+     				<p class="order-ddzt-s2-p1">已下单</p>
+     				<p class="order-ddzt-s2-p2">2016-9-2&nbsp;&nbsp;15:00</p>
+     				<p class="order-ddzt-s2-p3">下单成功，订单号：123131313131313131</p>
+     				<p class="order-ddzt-s2-p3">配送时间，快速送达</p>
+     				
+     			</span>
+     		</li>
+     		<li>
+     			<span class="order-ddzt-s1">
+     				<img  src="img/order-ddzt-2.png"/>
+     			</span>
+     			<span class="order-ddzt-s2">
+     				<p class="order-ddzt-s2-p1">您提交了订单，等待配送</p>
+     				<p class="order-ddzt-s2-p2">2016-9-2&nbsp;&nbsp;15:00</p>
+     				
+     			</span>
+     		</li>
+     		
+     	</ul>
+     	
+     	<!--底部-->
+         <footer class="order-ddzt-fot">
+         	<a class="order-ddzt-fot-a1">删除订单</a>
+         	<a class="order-ddzt-fot-a2">
+         		<span>拒收</span>
+         		
+         	</a>
+         	<a class="order-ddzt-fot-a3">
+         		<span>
+         			扫码收货
+         		</span>
+         		
+         	</a>
+         	<a class="order-ddzt-fot-a4">
+         		<span>
+         			确认收货
+         		</span>
+         		
+         	</a>
+         </footer>
+         <div style="width: 100%;height: 72px;margin-top: 20px;"></div>
+     </div>
+         <script type="text/javascript">
+         	$(document).ready(function(){
+         		$('#order-ddxq').css({'height':$('.order-ddxq').height()+20+'px'})
+         		$('.order-ddxq-td1').click(function(){
+         			$(this).css({'background':'#FFDB4C'});
+         			$('.order-ddxq-td2').css({'background':'#ffffff'});
+         			$('#ddxq').css({'display':'black'});
+         			$('#ddzt').css({'display':'none'});
+         			console.log('111')
+         		});
+         		$('.order-ddxq-td2').click(function(){
+         			$(this).css({'background':'#FFDB4C'});
+         			$('.order-ddxq-td1').css({'background':'#ffffff'});
+         			$('#ddxq').css({'display':'none'});
+         			$('#ddzt').css({'display':'block'});
+         			console.log('22')
+         		})
+         		//备注弹框
+         		$('.order-ddxq-bz-tanchuang-p1 img').click(function(){
+         			$('.order-ddxq-bz-tanchuang').css({'display':'none'})
+         		});
+         		$('.order-ddxq-bz').click(function(){
+         			$('.order-ddxq-bz-tanchuang').css({'display':'block'})
+         		})
+         	
+         		
+         	})
+         </script>
+	</body>
+
+</html>

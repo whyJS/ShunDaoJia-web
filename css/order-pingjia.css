@@ -1,0 +1,30 @@
+* {font-family: "Myriad Set Pro", 'Hiragino Sans GB W3', '微软雅黑', 'YaHei', 'Microsoft YaHei', "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif", 'SHSCN', 'Open Sans';font-size: 16px;color: #646464;margin: 0;padding: 0;}
+a, a:focus, a:hover, a:active {border: none;outline: none;text-decoration: none;color:#646464;box-sizing: border-box;}
+li {list-style: none;}
+.clear {clear: both;}
+body{background: #F0F0F0;}
+.loc-head{width: 100%;height: 60px;border-bottom: 1px solid #E1E1E1;}
+.loc-head-d1{position: absolute;top: 20px;left: 12px;}
+.loc-head-d1 img{width: 8px;height: 16px;}
+.loc-head-d2{width: 100%;text-align: center;font-size: 18px;color: #323232;background: #FFFFFF;border-bottom: 1px solid #E1E1E1;padding-top: 20px;padding-bottom: 20px;}
+.order-pj-d1{padding-bottom: 26px; width: 100%;background: #FFFFFF;padding-top: 26px;text-align: center;border-top: 1px solid #E1E1E1;}
+.order-pj-d1 img{display: block;width: 76px;height: 56px;margin: auto;border: 1px solid #E1E1E1;border-radius: 4px;margin-bottom: 10px;}
+.order-pj-d1-div{width: 100%;text-align: center;font-size: 16px;color: #323232;padding-bottom: 26px;border-bottom: 1px solid #E1E1E1;}
+.order-pj-d2{margin-top: 6px;width: 100%;padding-top: 16px;padding-bottom: 16px;background: #FFFFFF;}
+.order-pj-d2 textarea{outline: none; width: 90%;height: 88px;display: block;margin: auto;border: 1px solid #E1E1E1;border-radius: 6px;color: #CCCCCC;font-size: 18px;box-sizing: border-box;padding: 10px;resize: none;}
+.order-pj-a{display: block;width: 90%;border: 2px solid #000000;text-align: center;border-radius: 20px;height: 44px;font-size: 18px;color: #010101;background: #FFDB4C;margin:auto;margin-top: 26px;line-height: 40px;font-weight: 600;}
+/*星级评价*/
+.order-score-div{position: absolute;left: 12px;font-size: 18px;color: #969696;font-weight: 600;}
+/*商品*/
+.order-pj-ul{width: 100%;text-align: center;padding-top: 26px;margin: auto;}
+#score li{display: inline-block; list-style: none;cursor: pointer;  width: 26px;height: 24px;background:url(../img/order-pingjia3.png);background-repeat: no-repeat;border: 0px solid black;background-size:cover;}  
+#score li.current{background: url(../img/order-pingjia2.png);background-repeat:no-repeat ;background-size:cover ;}  
+/*服务*/
+.order-pj-ul2{width: 100%;text-align: center;padding-top: 26px;margin: auto;}
+#score2 li{display: inline-block; list-style: none;cursor: pointer;  width: 26px;height: 24px;background:url(../img/order-pingjia3.png);background-repeat: no-repeat;border: 0px solid black;background-size:cover;}  
+#score2 li.current{background: url(../img/order-pingjia2.png);background-repeat:no-repeat ;background-size:cover ;}
+
+
+
+
+

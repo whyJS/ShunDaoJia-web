@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+/*标题开始*/
+header{
+    width:100%;
+    height:44px;
+    line-height: 44px;
+    background:#fff;
+    border-bottom: 1px solid #e1e1e1;
+    position: fixed;
+    top:0px;
+}
+header .head{
+   width:100%;
+   height:44px;
+   line-height: 44px;
+   position: absolute;
+   top:0px;
+}
+header .head img{
+    width:8px;
+    height:16px;
+    margin-left: 12px;
+    vertical-align: middle;
+}
+header .head .biaoji{
+    float:right;
+    margin-right: 12px;
+  
+}
+header .head .biaoji a{
+    font-size: 15px;
+    color:#333333;
+}
+header .section{
+    text-align: center;
+    font-size:18px;
+    color:#333333;
+}
+/*标题结束
+/*内容开始*/
+section{
+    width:100%;
+    height:auto;
+    background:#f0f0f0;
+    padding:12px;
+    margin-top: 44px;
+}
+/*未认证*/
+section table{
+    width:92%;
+    border-radius: 8px;
+    border:1px solid #aaa;
+    background:#fff;
+}
+section table tr{
+    width:100%;
+    height:47px;
+
+}
+section table td img{
+    width:22px;
+    height:22px;
+    margin:12px;
+}
+section table td input{
+    width:100%;
+    height:47px;
+    line-height: 47px;
+    font-size: 15px;
+    color:#999999;
+    border:none;
+    border-bottom:1px solid #aaa;
+}
+section .zhuyi{
+    width:92%;
+    border-radius: 8px;
+    border:1px solid #aaa;
+    background:#fff;
+    margin-top: 20px;
+    padding:16px 0px 28px 0px;
+}
+section .zhuyi h2{
+    text-align: center;
+    color:#ff5500;
+    font-size: 15px;
+}
+section .zhuyi p{
+    text-indent:2em;
+    padding: 2px;
+    line-height:17px;
+    margin:12px 16px 0px 16px;
+    font-size: 11px;
+    color:#ff5500;
+}
+section button{
+    width:80px;
+    height:28px;
+    border-radius: 4px;
+    background:#ffdb4d;
+    margin:20px 0px;
+    font-size: 11px;
+    border:1px solid #aaa;
+    outline:none;
+}
+section .pic{
+    width:90%;
+    height:130px;
+    display: inline-block;
+    margin:0 auto;
+}
+section .pic .left{
+    width:120px;
+    height:120px;
+    border-radius:8px;
+    background:#000000;
+    opacity:0.2;
+    float:left;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+section .pic .left .left1{
+    width:90px;
+    height:90px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:15px;
+}
+section .pic .left .left1 img{
+    margin:0 auto;
+}
+section .pic .left .left1 span{
+    display: block;
+    font-size: 12px;
+    color:#fff;
+    margin-top: 12px;
+}
+section .pic .right{
+    width:120px;
+    height:120px;
+    border-radius:8px;
+    background:#000000;
+    opacity:0.2;
+    float:left;
+    margin-left:20px;
+    margin-top: 5px;
+}
+section .pic .right .right1
+{
+    width:90px;
+    height:90px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:15px;
+}
+section .pic .right .right1 img{
+    margin:0 auto;
+}
+section .pic .right .right1 span{
+    display: block;
+    font-size: 12px;
+    color:#fff;
+    margin-top: 12px;
+}
+/*已认证*/
+
+/*内容结束*/

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- 删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- 设置苹果工具栏颜色 -->
+    <meta name="format-detection" content="telphone=no, email=no" />
+    <!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+    <!-- 启用360浏览器的极速模式(webkit) -->
+    <meta name="renderer" content="webkit">
+    <!-- 避免IE使用兼容模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+    <meta name="HandheldFriendly" content="true">
+    <!-- 微软的老式浏览器 -->
+    <meta name="MobileOptimized" content="320">
+    <!-- uc强制竖屏 -->
+    <meta name="screen-orientation" content="portrait">
+    <!-- QQ强制竖屏 -->
+    <meta name="x5-orientation" content="portrait">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- UC应用模式 -->
+    <meta name="browsermode" content="application">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <!-- windows phone 点击无高光 -->
+    <meta name="msapplication-tap-highlight" content="no">
+    <!-- 适应移动端end -->
+    <script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+    <script type="text/javascript" src="./js/register.js"></script>
+</head>
+<body>
+ 
+    <div class="header">
+        <div class="header_1">
+            <a href="">
+                <img src="./img/back.png" width="30px"></a>
+        </div>
+        <div class="header_2">注册</div>
+    </div>
+    <div style="width:100%;height:30px;"></div>
+    <div class="zc">
+        <form  method="post">
+            <ul>
+                <li> <i class="un"><img id="shouji1" src="img/shouji.png" style="width:23px"></i>
+                    <input class="username xx" type="text" placeholder="请输入手机号码" maxlength='11'/><p id="err_msg"></p>
+                </li>
+                <li> <i class="pw"><img id="suo1" src="img/suo.png" style="width:23px"></i>
+                    <input class="pwd xx" type="password" placeholder="请输入密码"/><p id="err_msg"></p>
+                </li>
+                <li>
+                    <i class="pw2">
+                        <img id="suo3" src="img/suo.png" style="width:23px"></i>
+                    <input class="pwd2 xx" type="password" placeholder="请输入确认密码"/><p id="err_msg"></p>
+                </li>
+                <li>
+                    <i class="yz">
+                        <img id="anquan1" src="img/anquan.png" style="width:23px"></i>
+                    <input class="yzm xx" type="text" placeholder="请输入手机验证码"/>
+                    <input type="button" id="send" value="发送验证码" />
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div style="width:100%;height:30px;"></div>
+    <div class="end_zc">
+         <button class="submit">注册并登陆</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!-- 删除苹果默认的工具栏和菜单栏 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<!-- 设置苹果工具栏颜色 -->
+		<meta name="format-detection" content="telphone=no, email=no" />
+		<!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+		<!-- 启用360浏览器的极速模式(webkit) -->
+		<meta name="renderer" content="webkit">
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+		<!-- 适应移动端end -->
+		<!--引入百度地图API-->
+
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/order-pingjia.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/order-pingjia.css" />
+		
+		<title></title>
+	</head>
+
+	<body>
+
+		<header class="loc-head">
+			<!--关闭-->
+			<div class="loc-head-d1">
+				<a href="">
+					<img src="img/order-pingjia1.png" />
+				</a>
+			</div>
+			<!--定位-->
+			<div class="loc-head-d2">
+				评价
+			</div>
+		</header>
+
+		<!--商家-->
+		<div class="order-pj-d1">
+			<img src="img/home-page-sj.png" />
+			<div class="order-pj-d1-div">家外家超市（通州里梨园云景东路）</div>
+			<!--星级评价-->
+			<ul class="order-pj-ul" id="score">
+				<div class="order-score-div">商品</div>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<ul class="order-pj-ul2" id="score2">
+				<div class="order-score-div">服务</div>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+
+		<div class="order-pj-d2">
+			<textarea placeholder="输入评价留言，限100字" maxlength="100"></textarea>
+		</div>
+
+		<a href="home-page.html" class="order-pj-a" style="">
+			确认，回首页
+		</a>
+	</body>
+
+</html>
